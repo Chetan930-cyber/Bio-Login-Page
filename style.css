@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+   background-image: url(./pexels-photo-414660.jpeg);
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.inside{
+    height: 580px;
+    width: 1000px; 
+    border-radius: 20PX;
+    display: flex;
+    
+}
+.part1{
+    height: 580px;
+    width: 400px;
+    background: rgba(173, 131, 131, 0.5);
+    z-index: 5;
+    border-top-left-radius: 6px solid #ff69b4;
+
+    
+}
+.kavya{
+    width: 400px;
+    height: 270px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.kavya .riya{
+    width: 240px;
+    padding-top: 48px;
+}
+.part1 .high{
+    background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+    -webkit-text-stroke: 1px black;
+     border: 6px solid white;
+
+}
+.part1 img{
+    width: 40%;
+    padding-left: 15px;
+    padding-top: 15px;
+    border-radius top:10% ;
+    
+}
+
+.part1 .poem{
+    padding-left: 48px;
+    padding-top: 2px;
+    background-image: radial-gradient( circle 331px at 1.4% 52.9%,  rgba(255,236,2,1) 0%, rgba(255,223,2,1) 33.6%, rgba(255,187,29,1) 61%, rgba(255,175,7,1) 100.7% );
+    border: 2px solid white;
+}
+
+.part1 h3{
+    width: 80%;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-top: 25px;
+    background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+font-weight: bolder;
+color: #e119af;
+font-size: 20px;
+border: 6px solid white;
+
+}
+.image{
+    display: flex;
+    
+    align-items: center;
+    
+}
+.image h2{
+    padding-left: 12px;
+    font-size: 35px;
+}
+.part2{
+    height: 580px;
+    width: 600px;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    border: 3px solid black;
+}
+.header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+.header1 h1{
+    padding-bottom: 3px;
+    color: #3909d7;
+    
+}
+
+.header span{
+    padding-right: 9px;
+    padding-top: ;
+}
+.part2.header a{
+    width: 40%;
+}
+.header1{
+    text-align: center;
+    padding-top: 70px;
+    
+
+}
+
+
+.header1 a{
+    color: #1539da;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+
+}
+.header1 a img{
+    width: 45px;
+}
+.header1  input{
+    width: 60%;
+    height: 45px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-left: 130px;
+    
+}
+.header1 button{
+    width: 60%;
+    height: 45px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 130px;
+}
+ .part2.header1 input ::placeholder{
+    color: rgb(33, 122, 199);
+    
+}
+.header1 .anchors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header1 .nextpart{
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 2px;
+    width: 100%;
+    
+}
+@media(max-width:480px){
+    .container {
+        height: auto;
+        width: 100%;
+        
+    }
+    .inside{
+        height: auto;
+        width: 100%;   
+        display: flex; 
+        flex-direction: column;
+    }
+    .inside .part1{
+        height: auto;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .inside .part1 .image{
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+   
+    .inside .part1 .image .high{
+        display: none;
+    }
+    .inside .part1 h3{
+        height: 119px;
+        width: 70%;
+       display: flex;
+       justify-content: flex-start;
+       padding: 0px;
+    }
+    .inside .part1 .poem{
+        height: 50px;
+        width: 50%;
+        padding: 0px;
+        margin-top: 10px;
+        font-size: 20px;
+
+    }
+    .inside .part2{
+        height: auto;
+        width: 100%;
+        display: flex;
+        padding-right: 2px;
+        
+        
+    }
+    .header1 .anchors{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .header1 h1{
+    
+        height: auto;
+      margin-left: 100px;
+      display: flex;
+      
+        
+    }
+.header1 .line{
+    display: flex;
+    margin-left: 72px;
+   
+}
+.header1 h3{
+    display: flex;
+    padding-left: 178px;
+}
+.header1 .nextpart{
+    width: 100%;
+    display: flex;
+   
+    margin-right: 45px;
+  
+}
+.inside .part1 .kavya img{
+    margin-right: 310px;
+    width: 60%;
+    display: flex;
+}
+.nextpart input{
+    display: flex;
+    margin-left: 85px;
+}
+.nextpart button{
+    
+    margin-left: 85px;
+}
+
+}
+
+@media(max-width:768px){
+    .container {
+        height: auto;
+        width: 100%;
+        
+    }
+    .inside{
+        height: auto;
+        width: 100%;   
+        display: flex; 
+        flex-direction: column;
+    }
+    .inside .part1{
+       
+       width: 100%;
+       height: auto;
+       justify-content: center;
+       align-items: center;
+    }
+    .part1 .poem{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .inside .part1 .kavya img{
+        margin-left: 320px;
+        width: 60%;
+        display: flex;
+    }
+    .inside .part2{
+       
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+     }
+
+}
+
+
+
+
+
